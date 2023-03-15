@@ -9,7 +9,7 @@ let user = {
     }
   };
 
-  console.log(user.fullName) // John Smith
+  // console.log(user.fullName) // John Smith
 
 
   ///-----------------------------------------------------  2
@@ -30,13 +30,13 @@ Object.defineProperty(user1, 'fullName', {
   }
 });
 
-console.log(user1.fullName); // John Smith
+// console.log(user1.fullName); // John Smith
 
 // set fullName is executed with the given value.
 user1.fullName = "Alice Cooper";
 
-console.log(user1.name); // Alice
-console.log(user1.surname); // Cooper
+// console.log(user1.name); // Alice
+// console.log(user1.surname); // Cooper
 
 
 //------------------------------------------------------------- 3
@@ -58,7 +58,7 @@ let user2 = {
   };
   
   user2.name = "Pete";
-  console.log(user2.name); // Pete
+  // console.log(user2.name); // Pete
   
   user2.name = ""; // Name is too short...
 

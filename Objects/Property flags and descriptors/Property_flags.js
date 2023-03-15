@@ -18,7 +18,7 @@
       
       let descriptor = Object.getOwnPropertyDescriptor(user, 'name');
 
-      console.log(descriptor) // { value: 'John', writable: true, enumerable: true, configurable: true }
+    //  console.log(descriptor) // { value: 'John', writable: true, enumerable: true, configurable: true }
  
 
 

@@ -1,0 +1,17 @@
+ Constructor Function
+
+ It is special function that create and initialize an object.
+
+ A constrctor function usefull when you want to create multiple similar object with same property and method.
+
+ 'new' keyword is used in javascript to create a object from constrctor function.
+
+ 'new' keyword will do following thing
+   1. create a new empty object.
+   2. Set the prototype of this object to the constrctor function prototype property.
+   3. Bind 'this' keyword to the newly created object and exicute the constrctor function.
+   4. Return newly created object.
+
+
+
+ 
